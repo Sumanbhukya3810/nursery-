@@ -1,0 +1,171 @@
+2024-09-12T10:07:47.101+05:30  INFO 12452 --- [2-seed-server] [main] com.seed.in.ApplicationTests             : Starting ApplicationTests using Java 21.0.3 with PID 12452 (started by dudhussa in C:\Spring Boot\Sprint Implementation\2-seed-server\2-seed-server)
+2024-09-12T10:07:47.132+05:30  INFO 12452 --- [2-seed-server] [main] com.seed.in.ApplicationTests             : No active profile set, falling back to 1 default profile: "default"
+2024-09-12T10:07:48.276+05:30  INFO 12452 --- [2-seed-server] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-12T10:07:48.394+05:30  INFO 12452 --- [2-seed-server] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 102 ms. Found 1 JPA repository interface.
+2024-09-12T10:07:49.266+05:30  INFO 12452 --- [2-seed-server] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-12T10:07:49.460+05:30  INFO 12452 --- [2-seed-server] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-09-12T10:07:49.540+05:30  INFO 12452 --- [2-seed-server] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-09-12T10:07:50.294+05:30  INFO 12452 --- [2-seed-server] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-12T10:07:50.362+05:30  INFO 12452 --- [2-seed-server] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-09-12T10:07:51.090+05:30  INFO 12452 --- [2-seed-server] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3cb195dd
+2024-09-12T10:07:51.094+05:30  INFO 12452 --- [2-seed-server] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-09-12T10:07:51.221+05:30  WARN 12452 --- [2-seed-server] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-09-12T10:07:52.684+05:30  INFO 12452 --- [2-seed-server] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-12T10:07:52.796+05:30  INFO 12452 --- [2-seed-server] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-12T10:07:53.383+05:30  WARN 12452 --- [2-seed-server] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-12T10:07:53.887+05:30  INFO 12452 --- [2-seed-server] [main] com.seed.in.ApplicationTests             : Started ApplicationTests in 7.407 seconds (process running for 9.485)
+2024-09-12T10:07:54.992+05:30  INFO 12452 --- [2-seed-server] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-12T10:07:54.994+05:30  INFO 12452 --- [2-seed-server] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-09-12T10:07:55.003+05:30  INFO 12452 --- [2-seed-server] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-09-12T12:48:03.722+05:30  INFO 17428 --- [2-seed-server] [restartedMain] com.seed.in.SeedServerApplication        : Starting SeedServerApplication using Java 21.0.3 with PID 17428 (C:\Spring Boot\Sprint Implementation\2-seed-server\2-seed-server\target\classes started by dudhussa in C:\Spring Boot\Sprint Implementation\2-seed-server\2-seed-server)
+2024-09-12T12:48:03.726+05:30  INFO 17428 --- [2-seed-server] [restartedMain] com.seed.in.SeedServerApplication        : No active profile set, falling back to 1 default profile: "default"
+2024-09-12T12:48:03.825+05:30  INFO 17428 --- [2-seed-server] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-09-12T12:48:03.825+05:30  INFO 17428 --- [2-seed-server] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-09-12T12:48:05.080+05:30  INFO 17428 --- [2-seed-server] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-12T12:48:05.211+05:30  INFO 17428 --- [2-seed-server] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 113 ms. Found 1 JPA repository interface.
+2024-09-12T12:48:06.528+05:30  INFO 17428 --- [2-seed-server] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-09-12T12:48:06.554+05:30  INFO 17428 --- [2-seed-server] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-12T12:48:06.555+05:30  INFO 17428 --- [2-seed-server] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-12T12:48:06.653+05:30  INFO 17428 --- [2-seed-server] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-12T12:48:06.654+05:30  INFO 17428 --- [2-seed-server] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2828 ms
+2024-09-12T12:48:06.952+05:30  INFO 17428 --- [2-seed-server] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-12T12:48:07.094+05:30  INFO 17428 --- [2-seed-server] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-09-12T12:48:07.172+05:30  INFO 17428 --- [2-seed-server] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-09-12T12:48:07.784+05:30  INFO 17428 --- [2-seed-server] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-12T12:48:07.846+05:30  INFO 17428 --- [2-seed-server] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-09-12T12:48:08.471+05:30  INFO 17428 --- [2-seed-server] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@274dbfe3
+2024-09-12T12:48:08.475+05:30  INFO 17428 --- [2-seed-server] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-09-12T12:48:08.586+05:30  WARN 17428 --- [2-seed-server] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-09-12T12:48:09.903+05:30  INFO 17428 --- [2-seed-server] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-12T12:48:10.100+05:30  INFO 17428 --- [2-seed-server] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-12T12:48:10.507+05:30  WARN 17428 --- [2-seed-server] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-12T12:48:11.101+05:30  INFO 17428 --- [2-seed-server] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-09-12T12:48:11.165+05:30  INFO 17428 --- [2-seed-server] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-09-12T12:48:11.178+05:30  INFO 17428 --- [2-seed-server] [restartedMain] com.seed.in.SeedServerApplication        : Started SeedServerApplication in 8.253 seconds (process running for 9.363)
+2024-09-12T12:48:57.806+05:30  INFO 5884 --- [2-seed-server] [restartedMain] com.seed.in.SeedServerApplication        : Starting SeedServerApplication using Java 21.0.3 with PID 5884 (C:\Spring Boot\Sprint Implementation\2-seed-server\2-seed-server\target\classes started by dudhussa in C:\Spring Boot\Sprint Implementation\2-seed-server\2-seed-server)
+2024-09-12T12:48:57.812+05:30  INFO 5884 --- [2-seed-server] [restartedMain] com.seed.in.SeedServerApplication        : No active profile set, falling back to 1 default profile: "default"
+2024-09-12T12:48:57.924+05:30  INFO 5884 --- [2-seed-server] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-09-12T12:48:57.924+05:30  INFO 5884 --- [2-seed-server] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-09-12T12:48:59.427+05:30  INFO 5884 --- [2-seed-server] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-12T12:48:59.561+05:30  INFO 5884 --- [2-seed-server] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 116 ms. Found 1 JPA repository interface.
+2024-09-12T12:49:00.813+05:30  INFO 5884 --- [2-seed-server] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-09-12T12:49:00.849+05:30  INFO 5884 --- [2-seed-server] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-12T12:49:00.849+05:30  INFO 5884 --- [2-seed-server] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-12T12:49:00.985+05:30  INFO 5884 --- [2-seed-server] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-12T12:49:00.986+05:30  INFO 5884 --- [2-seed-server] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3060 ms
+2024-09-12T12:49:01.367+05:30  INFO 5884 --- [2-seed-server] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-12T12:49:01.497+05:30  INFO 5884 --- [2-seed-server] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-09-12T12:49:01.571+05:30  INFO 5884 --- [2-seed-server] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-09-12T12:49:02.128+05:30  INFO 5884 --- [2-seed-server] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-12T12:49:02.179+05:30  INFO 5884 --- [2-seed-server] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-09-12T12:49:02.798+05:30  INFO 5884 --- [2-seed-server] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@73265d91
+2024-09-12T12:49:02.801+05:30  INFO 5884 --- [2-seed-server] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-09-12T12:49:02.892+05:30  WARN 5884 --- [2-seed-server] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-09-12T12:49:04.470+05:30  INFO 5884 --- [2-seed-server] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-12T12:49:04.549+05:30  INFO 5884 --- [2-seed-server] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-12T12:49:04.915+05:30  WARN 5884 --- [2-seed-server] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-12T12:49:05.418+05:30  WARN 5884 --- [2-seed-server] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2024-09-12T12:49:05.441+05:30  WARN 5884 --- [2-seed-server] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2024-09-12T12:49:05.443+05:30  INFO 5884 --- [2-seed-server] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-12T12:49:05.450+05:30  INFO 5884 --- [2-seed-server] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-09-12T12:49:05.461+05:30  INFO 5884 --- [2-seed-server] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-09-12T12:49:05.477+05:30  INFO 5884 --- [2-seed-server] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-09-12T12:49:05.518+05:30 ERROR 5884 --- [2-seed-server] [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2024-09-12T12:49:35.310+05:30  INFO 23888 --- [2-seed-server] [restartedMain] com.seed.in.SeedServerApplication        : Starting SeedServerApplication using Java 21.0.3 with PID 23888 (C:\Spring Boot\Sprint Implementation\2-seed-server\2-seed-server\target\classes started by dudhussa in C:\Spring Boot\Sprint Implementation\2-seed-server\2-seed-server)
+2024-09-12T12:49:35.317+05:30  INFO 23888 --- [2-seed-server] [restartedMain] com.seed.in.SeedServerApplication        : No active profile set, falling back to 1 default profile: "default"
+2024-09-12T12:49:35.419+05:30  INFO 23888 --- [2-seed-server] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-09-12T12:49:35.419+05:30  INFO 23888 --- [2-seed-server] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-09-12T12:49:36.929+05:30  INFO 23888 --- [2-seed-server] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-12T12:49:37.119+05:30  INFO 23888 --- [2-seed-server] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 169 ms. Found 1 JPA repository interface.
+2024-09-12T12:49:38.452+05:30  INFO 23888 --- [2-seed-server] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-09-12T12:49:38.488+05:30  INFO 23888 --- [2-seed-server] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-12T12:49:38.489+05:30  INFO 23888 --- [2-seed-server] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-12T12:49:38.608+05:30  INFO 23888 --- [2-seed-server] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-12T12:49:38.609+05:30  INFO 23888 --- [2-seed-server] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3185 ms
+2024-09-12T12:49:38.942+05:30  INFO 23888 --- [2-seed-server] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-12T12:49:39.101+05:30  INFO 23888 --- [2-seed-server] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-09-12T12:49:39.175+05:30  INFO 23888 --- [2-seed-server] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-09-12T12:49:39.834+05:30  INFO 23888 --- [2-seed-server] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-12T12:49:39.897+05:30  INFO 23888 --- [2-seed-server] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-09-12T12:49:40.509+05:30  INFO 23888 --- [2-seed-server] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@10aef427
+2024-09-12T12:49:40.514+05:30  INFO 23888 --- [2-seed-server] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-09-12T12:49:40.617+05:30  WARN 23888 --- [2-seed-server] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-09-12T12:49:42.145+05:30  INFO 23888 --- [2-seed-server] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-12T12:49:42.226+05:30  INFO 23888 --- [2-seed-server] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-12T12:49:42.628+05:30  WARN 23888 --- [2-seed-server] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-12T12:49:43.146+05:30  INFO 23888 --- [2-seed-server] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-09-12T12:49:43.194+05:30  INFO 23888 --- [2-seed-server] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-09-12T12:49:43.205+05:30  INFO 23888 --- [2-seed-server] [restartedMain] com.seed.in.SeedServerApplication        : Started SeedServerApplication in 9.153 seconds (process running for 10.716)
+2024-09-12T13:37:24.251+05:30  WARN 23888 --- [2-seed-server] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=40m43s496ms699µs).
+2024-09-12T15:54:14.798+05:30  INFO 3360 --- [2-seed-server] [main] com.seed.in.ApplicationTests             : Starting ApplicationTests using Java 21.0.3 with PID 3360 (started by dudhussa in C:\Spring Boot\Sprint Implementation\2-seed-server\2-seed-server)
+2024-09-12T15:54:14.801+05:30  INFO 3360 --- [2-seed-server] [main] com.seed.in.ApplicationTests             : No active profile set, falling back to 1 default profile: "default"
+2024-09-12T15:54:15.968+05:30  INFO 3360 --- [2-seed-server] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-12T15:54:16.087+05:30  INFO 3360 --- [2-seed-server] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 100 ms. Found 1 JPA repository interface.
+2024-09-12T15:54:16.903+05:30  INFO 3360 --- [2-seed-server] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-12T15:54:17.060+05:30  INFO 3360 --- [2-seed-server] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-09-12T15:54:17.141+05:30  INFO 3360 --- [2-seed-server] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-09-12T15:54:17.886+05:30  INFO 3360 --- [2-seed-server] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-12T15:54:17.955+05:30  INFO 3360 --- [2-seed-server] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-09-12T15:54:18.630+05:30  INFO 3360 --- [2-seed-server] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@527d48db
+2024-09-12T15:54:18.635+05:30  INFO 3360 --- [2-seed-server] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-09-12T15:54:18.755+05:30  WARN 3360 --- [2-seed-server] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-09-12T15:54:20.126+05:30  INFO 3360 --- [2-seed-server] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-12T15:54:20.203+05:30  INFO 3360 --- [2-seed-server] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-12T15:54:20.693+05:30  WARN 3360 --- [2-seed-server] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-12T15:54:21.259+05:30  INFO 3360 --- [2-seed-server] [main] com.seed.in.ApplicationTests             : Started ApplicationTests in 7.055 seconds (process running for 9.065)
+2024-09-12T15:54:22.547+05:30  INFO 3360 --- [2-seed-server] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-12T15:54:22.552+05:30  INFO 3360 --- [2-seed-server] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-09-12T15:54:22.572+05:30  INFO 3360 --- [2-seed-server] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-09-12T15:54:44.874+05:30  INFO 29824 --- [2-seed-server] [main] com.seed.in.ApplicationTests             : Starting ApplicationTests using Java 21.0.3 with PID 29824 (started by dudhussa in C:\Spring Boot\Sprint Implementation\2-seed-server\2-seed-server)
+2024-09-12T15:54:44.878+05:30  INFO 29824 --- [2-seed-server] [main] com.seed.in.ApplicationTests             : No active profile set, falling back to 1 default profile: "default"
+2024-09-12T15:54:46.236+05:30  INFO 29824 --- [2-seed-server] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-12T15:54:46.375+05:30  INFO 29824 --- [2-seed-server] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 121 ms. Found 1 JPA repository interface.
+2024-09-12T15:54:47.306+05:30  INFO 29824 --- [2-seed-server] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-12T15:54:47.453+05:30  INFO 29824 --- [2-seed-server] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-09-12T15:54:47.542+05:30  INFO 29824 --- [2-seed-server] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-09-12T15:54:48.314+05:30  INFO 29824 --- [2-seed-server] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-12T15:54:48.380+05:30  INFO 29824 --- [2-seed-server] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-09-12T15:54:49.057+05:30  INFO 29824 --- [2-seed-server] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@545dedf4
+2024-09-12T15:54:49.062+05:30  INFO 29824 --- [2-seed-server] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-09-12T15:54:49.177+05:30  WARN 29824 --- [2-seed-server] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-09-12T15:54:50.816+05:30  INFO 29824 --- [2-seed-server] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-12T15:54:50.887+05:30  INFO 29824 --- [2-seed-server] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-12T15:54:51.447+05:30  WARN 29824 --- [2-seed-server] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-12T15:54:52.071+05:30  INFO 29824 --- [2-seed-server] [main] com.seed.in.ApplicationTests             : Started ApplicationTests in 7.957 seconds (process running for 10.909)
+2024-09-12T15:54:54.797+05:30  INFO 29824 --- [2-seed-server] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-12T15:54:54.805+05:30  INFO 29824 --- [2-seed-server] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-09-12T15:54:54.849+05:30  INFO 29824 --- [2-seed-server] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-09-12T15:58:07.811+05:30  INFO 15496 --- [2-seed-server] [main] com.seed.in.ApplicationTests             : Starting ApplicationTests using Java 21.0.3 with PID 15496 (started by dudhussa in C:\Spring Boot\Sprint Implementation\2-seed-server\2-seed-server)
+2024-09-12T15:58:07.815+05:30  INFO 15496 --- [2-seed-server] [main] com.seed.in.ApplicationTests             : No active profile set, falling back to 1 default profile: "default"
+2024-09-12T15:58:09.218+05:30  INFO 15496 --- [2-seed-server] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-12T15:58:09.351+05:30  INFO 15496 --- [2-seed-server] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 115 ms. Found 1 JPA repository interface.
+2024-09-12T15:58:10.310+05:30  INFO 15496 --- [2-seed-server] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-12T15:58:10.461+05:30  INFO 15496 --- [2-seed-server] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-09-12T15:58:10.547+05:30  INFO 15496 --- [2-seed-server] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-09-12T15:58:11.368+05:30  INFO 15496 --- [2-seed-server] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-12T15:58:11.448+05:30  INFO 15496 --- [2-seed-server] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-09-12T15:58:12.176+05:30  INFO 15496 --- [2-seed-server] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4f1d97d8
+2024-09-12T15:58:12.182+05:30  INFO 15496 --- [2-seed-server] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-09-12T15:58:12.276+05:30  WARN 15496 --- [2-seed-server] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-09-12T15:58:13.877+05:30  INFO 15496 --- [2-seed-server] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-12T15:58:13.956+05:30  INFO 15496 --- [2-seed-server] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-12T15:58:14.508+05:30  WARN 15496 --- [2-seed-server] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-12T15:58:15.112+05:30  INFO 15496 --- [2-seed-server] [main] com.seed.in.ApplicationTests             : Started ApplicationTests in 8.089 seconds (process running for 11.006)
+2024-09-12T15:58:17.849+05:30  INFO 15496 --- [2-seed-server] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-12T15:58:17.924+05:30  INFO 15496 --- [2-seed-server] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-09-12T15:58:17.958+05:30  INFO 15496 --- [2-seed-server] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
